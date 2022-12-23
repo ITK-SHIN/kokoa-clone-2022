@@ -16,3 +16,41 @@
 .friends-screen {
   padding: 0px var(--horizontal-space);
 }
+.screen-header__icons {
+  position: relative;
+}
+
+.setting__dot {
+  background-color: tomato;
+  width: 8px;
+  height: 8px;
+  display: block;
+  border-radius: 4px;
+  position: absolute;
+  left: 70px;
+  bottom: 20px;
+}
+
+.more-setting {
+  position: relative;
+}
+
+.more__dot {
+  background-color: tomato;
+  width: 8px;
+  height: 8px;
+  display: block;
+  border-radius: 4px;
+  position: absolute;
+  left: -5px;
+  top: -10px;
+}
+.more-mark {
+  border: 1px solid red;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  text-align: center;
+  color: red;
+  margin-left: 5px;
+}
